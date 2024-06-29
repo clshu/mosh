@@ -1,0 +1,18 @@
+10 > 3  # True
+10 > 20  # False
+10 == 10  # True
+10 != 10  # False
+10 != 20  # True
+10 >= 10  # True
+10 == "10"  # False
+10 == int("10")  # True
+10 == float("10")  # True
+10 == float("10.0")  # True
+10 == float("10.1")  # False
+"bag" > "apple"  # True
+"bag" < "apple"  # False
+"bag" == "apple"  # False
+"bag" != "apple"  # True
+"bag" < "Bag"  # False
+ord("b")  # 98
+ord("B")  # 66
